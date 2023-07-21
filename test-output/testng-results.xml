@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-20T13:25:39 IST" name="Selinium Project" finished-at="2023-07-20T13:27:54 IST" duration-ms="134966">
+  <suite started-at="2023-07-21T10:59:47 IST" name="Selinium Project" finished-at="2023-07-21T10:59:56 IST" duration-ms="9498">
     <groups>
     </groups>
-    <test started-at="2023-07-20T13:25:39 IST" name="LoginTest" finished-at="2023-07-20T13:26:21 IST" duration-ms="41732">
+    <test started-at="2023-07-21T10:59:47 IST" name="LoginTest" finished-at="2023-07-21T10:59:53 IST" duration-ms="5904">
       <class name="assignment.testcases.LoginTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-20T13:25:39 IST" name="navigateToURL" finished-at="2023-07-20T13:26:02 IST" duration-ms="22993" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-21T10:59:47 IST" name="navigateToURL" finished-at="2023-07-21T10:59:48 IST" duration-ms="1728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-20T13:26:02 IST" name="startTest" finished-at="2023-07-20T13:26:02 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-21T10:59:48 IST" name="startTest" finished-at="2023-07-21T10:59:48 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="login()[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-20T13:26:02 IST" name="login" finished-at="2023-07-20T13:26:21 IST" duration-ms="18452" status="PASS">
+        <test-method signature="login()[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-21T10:59:48 IST" name="login" finished-at="2023-07-21T10:59:52 IST" duration-ms="3963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-20T13:26:21 IST" name="status" finished-at="2023-07-20T13:26:21 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.LoginTest@f09733f]" started-at="2023-07-21T10:59:52 IST" name="status" finished-at="2023-07-21T10:59:53 IST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,81 +39,17 @@
         </test-method> <!-- status -->
       </class> <!-- assignment.testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2023-07-20T13:26:21 IST" name="SearchProduct" finished-at="2023-07-20T13:26:31 IST" duration-ms="9978">
-      <class name="assignment.testcases.SearchProductTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.SearchProductTest@793f29ff]" started-at="2023-07-20T13:26:21 IST" name="navigateToURL" finished-at="2023-07-20T13:26:29 IST" duration-ms="8096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.SearchProductTest@793f29ff]" started-at="2023-07-20T13:26:29 IST" name="startTest" finished-at="2023-07-20T13:26:29 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.SearchProductTest.searchProduct()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="searchProduct()[pri:0, instance:assignment.testcases.SearchProductTest@793f29ff]" started-at="2023-07-20T13:26:29 IST" name="searchProduct" finished-at="2023-07-20T13:26:31 IST" duration-ms="1847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.SearchProductTest@793f29ff]" started-at="2023-07-20T13:26:31 IST" name="status" finished-at="2023-07-20T13:26:31 IST" duration-ms="34" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=SearchProductTest.searchProduct()[pri:0, instance:assignment.testcases.SearchProductTest@793f29ff] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.SearchProductTest -->
-    </test> <!-- SearchProduct -->
-    <test started-at="2023-07-20T13:26:31 IST" name="ChangeCountry" finished-at="2023-07-20T13:27:07 IST" duration-ms="35490">
-      <class name="assignment.testcases.ChangeCountryTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.ChangeCountryTest@7ef82753]" started-at="2023-07-20T13:26:31 IST" name="navigateToURL" finished-at="2023-07-20T13:26:33 IST" duration-ms="1475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.ChangeCountryTest@7ef82753]" started-at="2023-07-20T13:26:33 IST" name="startTest" finished-at="2023-07-20T13:26:33 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.ChangeCountryTest.changeCountry()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="changeCountry()[pri:0, instance:assignment.testcases.ChangeCountryTest@7ef82753]" started-at="2023-07-20T13:26:33 IST" name="changeCountry" finished-at="2023-07-20T13:27:06 IST" duration-ms="33836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeCountry -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.ChangeCountryTest@7ef82753]" started-at="2023-07-20T13:27:06 IST" name="status" finished-at="2023-07-20T13:27:07 IST" duration-ms="145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=changeCountry status=SUCCESS method=ChangeCountryTest.changeCountry()[pri:0, instance:assignment.testcases.ChangeCountryTest@7ef82753] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.ChangeCountryTest -->
-    </test> <!-- ChangeCountry -->
-    <test started-at="2023-07-20T13:27:07 IST" name="AddToCart" finished-at="2023-07-20T13:27:14 IST" duration-ms="7005">
+    <test started-at="2023-07-21T10:59:53 IST" name="AddToCart" finished-at="2023-07-21T10:59:56 IST" duration-ms="3572">
       <class name="assignment.testcases.AddItemToCartTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.AddItemToCartTest@75d3a5e0]" started-at="2023-07-20T13:27:07 IST" name="navigateToURL" finished-at="2023-07-20T13:27:11 IST" duration-ms="4707" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:44 IST" name="setup" finished-at="2023-07-21T10:59:47 IST" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:53 IST" name="navigateToURL" finished-at="2023-07-21T10:59:55 IST" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.AddItemToCartTest@75d3a5e0]" started-at="2023-07-20T13:27:11 IST" name="startTest" finished-at="2023-07-20T13:27:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:55 IST" name="startTest" finished-at="2023-07-21T10:59:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,166 +60,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="addItemToCart()[pri:0, instance:assignment.testcases.AddItemToCartTest@75d3a5e0]" started-at="2023-07-20T13:27:11 IST" name="addItemToCart" finished-at="2023-07-20T13:27:13 IST" duration-ms="2177" status="PASS">
+        <test-method signature="addItemToCart()[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:55 IST" name="addItemToCart" finished-at="2023-07-21T10:59:56 IST" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.AddItemToCartTest@75d3a5e0]" started-at="2023-07-20T13:27:13 IST" name="status" finished-at="2023-07-20T13:27:14 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:56 IST" name="status" finished-at="2023-07-21T10:59:56 IST" duration-ms="69" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addItemToCart status=SUCCESS method=AddItemToCartTest.addItemToCart()[pri:0, instance:assignment.testcases.AddItemToCartTest@75d3a5e0] output={null}]]]>
+                <![CDATA[[TestResult name=addItemToCart status=SUCCESS method=AddItemToCartTest.addItemToCart()[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.AddItemToCartTest -->
-    </test> <!-- AddToCart -->
-    <test started-at="2023-07-20T13:27:14 IST" name="AddPinCode" finished-at="2023-07-20T13:27:18 IST" duration-ms="4614">
-      <class name="assignment.testcases.AddPinCodeTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.AddPinCodeTest@795509d9]" started-at="2023-07-20T13:27:14 IST" name="navigateToURL" finished-at="2023-07-20T13:27:16 IST" duration-ms="2858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.AddPinCodeTest@795509d9]" started-at="2023-07-20T13:27:16 IST" name="startTest" finished-at="2023-07-20T13:27:16 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.AddPinCodeTest.addPinCode()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="addPinCode()[pri:0, instance:assignment.testcases.AddPinCodeTest@795509d9]" started-at="2023-07-20T13:27:16 IST" name="addPinCode" finished-at="2023-07-20T13:27:18 IST" duration-ms="1665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addPinCode -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.AddPinCodeTest@795509d9]" started-at="2023-07-20T13:27:18 IST" name="status" finished-at="2023-07-20T13:27:18 IST" duration-ms="79" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addPinCode status=SUCCESS method=AddPinCodeTest.addPinCode()[pri:0, instance:assignment.testcases.AddPinCodeTest@795509d9] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.AddPinCodeTest -->
-    </test> <!-- AddPinCode -->
-    <test started-at="2023-07-20T13:27:18 IST" name="NewReleaseProduct" finished-at="2023-07-20T13:27:24 IST" duration-ms="5620">
-      <class name="assignment.testcases.NewReleaseProductTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.NewReleaseProductTest@4b013c76]" started-at="2023-07-20T13:27:18 IST" name="navigateToURL" finished-at="2023-07-20T13:27:21 IST" duration-ms="2673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.NewReleaseProductTest@4b013c76]" started-at="2023-07-20T13:27:21 IST" name="startTest" finished-at="2023-07-20T13:27:21 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.NewReleaseProductTest.newReleaseProduct()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="newReleaseProduct()[pri:0, instance:assignment.testcases.NewReleaseProductTest@4b013c76]" started-at="2023-07-20T13:27:21 IST" name="newReleaseProduct" finished-at="2023-07-20T13:27:24 IST" duration-ms="2911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newReleaseProduct -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.NewReleaseProductTest@4b013c76]" started-at="2023-07-20T13:27:24 IST" name="status" finished-at="2023-07-20T13:27:24 IST" duration-ms="29" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=newReleaseProduct status=SUCCESS method=NewReleaseProductTest.newReleaseProduct()[pri:0, instance:assignment.testcases.NewReleaseProductTest@4b013c76] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.NewReleaseProductTest -->
-    </test> <!-- NewReleaseProduct -->
-    <test started-at="2023-07-20T13:27:24 IST" name="FilterPrice" finished-at="2023-07-20T13:27:28 IST" duration-ms="3737">
-      <class name="assignment.testcases.FilterPriceTest">
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.FilterPriceTest@75437611]" started-at="2023-07-20T13:27:24 IST" name="navigateToURL" finished-at="2023-07-20T13:27:25 IST" duration-ms="1597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.FilterPriceTest@75437611]" started-at="2023-07-20T13:27:25 IST" name="startTest" finished-at="2023-07-20T13:27:25 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.FilterPriceTest.filterPrice()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="filterPrice()[pri:0, instance:assignment.testcases.FilterPriceTest@75437611]" started-at="2023-07-20T13:27:25 IST" name="filterPrice" finished-at="2023-07-20T13:27:28 IST" duration-ms="2088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterPrice -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.FilterPriceTest@75437611]" started-at="2023-07-20T13:27:28 IST" name="status" finished-at="2023-07-20T13:27:28 IST" duration-ms="46" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=filterPrice status=SUCCESS method=FilterPriceTest.filterPrice()[pri:0, instance:assignment.testcases.FilterPriceTest@75437611] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-      </class> <!-- assignment.testcases.FilterPriceTest -->
-    </test> <!-- FilterPrice -->
-    <test started-at="2023-07-20T13:27:28 IST" name="KindlePage" finished-at="2023-07-20T13:27:54 IST" duration-ms="26687">
-      <class name="assignment.testcases.KindlePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:25:35 IST" name="setup" finished-at="2023-07-20T13:25:39 IST" duration-ms="4781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:27:28 IST" name="navigateToURL" finished-at="2023-07-20T13:27:31 IST" duration-ms="3640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:27:31 IST" name="startTest" finished-at="2023-07-20T13:27:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void assignment.testcases.KindlePageTest.KindlePage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="KindlePage()[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:27:31 IST" name="KindlePage" finished-at="2023-07-20T13:27:54 IST" duration-ms="23020" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- KindlePage -->
-        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:27:54 IST" name="status" finished-at="2023-07-20T13:27:54 IST" duration-ms="22" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=KindlePage status=SUCCESS method=KindlePageTest.KindlePage()[pri:0, instance:assignment.testcases.KindlePageTest@1349883] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- status -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.testcases.KindlePageTest@1349883]" started-at="2023-07-20T13:27:54 IST" name="tearDown" finished-at="2023-07-20T13:27:55 IST" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.testcases.AddItemToCartTest@793f29ff]" started-at="2023-07-21T10:59:56 IST" name="tearDown" finished-at="2023-07-21T10:59:57 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- assignment.testcases.KindlePageTest -->
-    </test> <!-- KindlePage -->
+      </class> <!-- assignment.testcases.AddItemToCartTest -->
+    </test> <!-- AddToCart -->
   </suite> <!-- Selinium Project -->
 </testng-results>

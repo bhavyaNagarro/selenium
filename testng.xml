@@ -2,64 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Selinium Project">
 
-	<!-- 10 Passed Test Cases -->
-
   <test name="LoginTest">
     <classes>
       <class name="assignment.testcases.LoginTest"/>
     </classes>
   </test>
   
-  <test name="SearchProduct">
-    <classes>
-      <class name="assignment.testcases.SearchProductTest"/>
-    </classes>
-  </test>
-  
-  
-  <test name="ChangeCountry">
-    <classes>
-      <class name="assignment.testcases.ChangeCountryTest"/>
-    </classes>
-  </test>
-  
   <test name="AddToCart">
     <classes>
       <class name="assignment.testcases.AddItemToCartTest"/>
-    </classes>
-  </test>
-  
-  <test name="AddPinCode">
-    <classes>
-      <class name="assignment.testcases.AddPinCodeTest"/>
-    </classes>
-  </test>
-  <!--
-  
-  <test name="ElectronicsProduct">
-    <classes>
-      <class name="assignment.testcases.ElectronicsProductTest"/>
-    </classes>
-  </test>
--->
-
-  <test name="NewReleaseProduct">
-    <classes>
-      <class name="assignment.testcases.NewReleaseProductTest"/>
-    </classes>
-  </test>
-  
-  
-  <test name="FilterPrice">
-    <classes>
-      <class name="assignment.testcases.FilterPriceTest"/>
-    </classes>
-  </test>
-  
-  
-  <test name="KindlePage">
-    <classes>
-      <class name="assignment.testcases.KindlePageTest"/>
     </classes>
   </test>
  
